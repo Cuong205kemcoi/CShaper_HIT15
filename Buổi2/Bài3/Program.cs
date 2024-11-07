@@ -1,78 +1,110 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bài3
+namespace TestDic
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static Dictionary<string,Dictionary<string, int>> dict()
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Dictionary<string, Dictionary<string, int>> dic = new Dictionary<string, Dictionary<string, int>>();
-            int n;
-            Console.Write("Nhập số lượng nhân viên :");
-            n = int.Parse(Console.ReadLine());
-            for (int i = 0; i < n; i++)
+            return new Dictionary<string, Dictionary<string, int>>() ;
+        }
+        static void Ip(){
+            var  input =dict();
+            foreach (var i in input)
             {
-                Console.WriteLine("Nhập thông tin Nhân viên thứ " + (i + 1));
-                Console.Write("Họ & Tên : ");
-                string name = Console.ReadLine();
-                Dictionary<string, int> nv = new Dictionary<string, int>();
-                Console.Write("Tên sản phẩm : ");
-                string od = Console.ReadLine();
-                Console.Write("Số lượng đơn hàng :");
-                int m = int.Parse(Console.ReadLine());
-                nv.Add(od, m);
-                dic.Add(name, nv);
-            }
-            //Tìm nhân viên bán được tổng số lượng sản phẩm nhiều nhất.
-            int max = 0;
-            string ST = "";
-            string NV = "";
-            foreach (var name in dic)
-            {
-                foreach (var sp in name.Value)
+                foreach (var k in i.Value)
                 {
-                    if (max < sp.Value)
-                    {
-                        max = sp.Value;
-                        ST = sp.Key;
-                        NV = name.Key;
-                    }
+                    Console.WriteLine($"Nhan vien : {i.Key} San pham :{k.Key} So luong : {k.Value}");
                 }
             }
-            Console.WriteLine($"Nhân viên bán đc tổng số lượng sản phẩm nhiều nhất là: {NV} | {ST} | {max}");
-            Dictionary<string, int> sanpham = new Dictionary<string, int>();
-            int S = 0;
-            string Ten = "";
-
-            // Duyệt qua từng nhân viên và cộng tổng các sản phẩm cùng tên
-            foreach (var a in dic)
+        }
+        static void Main(string[] args)
+        {
+            int n;
+            var dic=dict();
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.Write("Nhập số nhân viên = ");
+            n=int.Parse(Console.ReadLine());
+            while (n <= 0)
             {
-                foreach (var i in a.Value)
+                Console.Write("Nhập số nhân viên >0 = ");
+                n = int.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i < n; i++) 
+            {
+                string name;
+                string sanpham;
+                int sl;
+                Dictionary<string , int> nv = new Dictionary<string , int>();
+                Console.WriteLine("Nhập thông tin nhân viên thứ "+(i+1));
+                Console.Write("Họ và Tên :");
+                name= Console.ReadLine();
+                Console.Write("Sản phẩm : ");
+                sanpham= Console.ReadLine();
+                Console.Write("Số lượng :");
+                sl=int.Parse(Console.ReadLine());
+                nv.Add(sanpham, sl);
+                dic.Add(name, nv);
+            }
+            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("Thông tin nhân viên sau khi nhập ");
+            foreach (var i in dic)
+            {
+                foreach(var k in i.Value)
                 {
-                    if (sanpham.ContainsKey(i.Key))
+                    Console.WriteLine($"{i.Key} || {k.Key} || {k.Value}");
+                }
+            }
+            Dictionary<string, int> sp = new Dictionary<string, int>();
+            //tìm nhân viên có số lượng sản phảm bán nhiều nhất
+            int Maxsp = 0;
+            string maxNameNV = "";
+            foreach (var k in dic)
+            {
+                int s = 0;
+                foreach( var v in k.Value)
+                {
+                    s += v.Value;
+                }
+                if(Maxsp < s)
+                {
+                    Maxsp = s;
+                    maxNameNV=k.Key;
+                }
+            }
+            Console.WriteLine($"Nhân viên có số lượng sản phẩm nhiều nhất là :{maxNameNV} - {Maxsp} ");
+
+
+            int MaxSum = 0;
+            string MaxNameSP = "";
+            //tính tổng số lượng từng sẩn phẩm
+            foreach (var i in dic)
+            {
+                foreach (var k in i.Value)
+                {
+                    if (sp.ContainsKey(k.Key))
                     {
-                        sanpham[i.Key] += i.Value;
+                        sp[k.Key] += k.Value;
                     }
                     else
                     {
-                        sanpham[i.Key] = i.Value;
-                    }
-                    // Sử dụng Math.Max để tìm sản phẩm có tổng số lượng cao nhất
-                    S = Math.Max(S, sanpham[i.Key]);
-                    if (S == sanpham[i.Key])
-                    {
-                        Ten = i.Key;
+                        sp[k.Key]= k.Value;
                     }
                 }
             }
-            Console.WriteLine($"Sản phẩm bán chạy nhất là : {Ten}  |  {S}");
+            foreach(var k in sp)
+            {
+                if (k.Value > MaxSum)
+                {
+                    MaxSum = k.Value;
+                    MaxNameSP = k.Key;
+                }
+            }
+            Console.WriteLine($"Sản phẩm bán đc nhiều nhất là : {MaxNameSP} với lượt bán {MaxSum}");
             Console.ReadLine();
         }
     }

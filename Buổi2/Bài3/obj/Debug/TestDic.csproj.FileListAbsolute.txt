@@ -1,0 +1,7 @@
+D:\C#\TestDic\bin\Debug\TestDic.exe.config
+D:\C#\TestDic\bin\Debug\TestDic.exe
+D:\C#\TestDic\bin\Debug\TestDic.pdb
+D:\C#\TestDic\obj\Debug\TestDic.csproj.AssemblyReference.cache
+D:\C#\TestDic\obj\Debug\TestDic.csproj.CoreCompileInputs.cache
+D:\C#\TestDic\obj\Debug\TestDic.exe
+D:\C#\TestDic\obj\Debug\TestDic.pdb
