@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HITcoder\\Code_C#\\Buổi2\\Baitap\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "D:\\HITcoder\\Code_C#\\Buổi2\\Baitap\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\HITcoder\\Code_C#\\Buổi2\\Bài1.csproj",
+      "projectName": "Bài1",
+      "projectPath": "D:\\HITcoder\\Code_C#\\Buổi2\\Bài1.csproj",
       "packagesPath": "C:\\Users\\vancu\\.nuget\\packages\\",
-      "outputPath": "D:\\HITcoder\\Code_C#\\Buổi2\\Baitap\\obj\\",
+      "outputPath": "D:\\HITcoder\\Code_C#\\Buổi2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vancu\\AppData\\Roaming\\NuGet\\NuGet.Config",

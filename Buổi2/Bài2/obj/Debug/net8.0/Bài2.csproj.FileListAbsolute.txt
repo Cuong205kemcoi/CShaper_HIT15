@@ -1,0 +1,15 @@
+D:\HITcoder\Code_C#\Buổi2\Bài2\bin\Debug\net8.0\Bài2.exe
+D:\HITcoder\Code_C#\Buổi2\Bài2\bin\Debug\net8.0\Bài2.deps.json
+D:\HITcoder\Code_C#\Buổi2\Bài2\bin\Debug\net8.0\Bài2.runtimeconfig.json
+D:\HITcoder\Code_C#\Buổi2\Bài2\bin\Debug\net8.0\Bài2.dll
+D:\HITcoder\Code_C#\Buổi2\Bài2\bin\Debug\net8.0\Bài2.pdb
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.GeneratedMSBuildEditorConfig.editorconfig
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.AssemblyInfoInputs.cache
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.AssemblyInfo.cs
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.sourcelink.json
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.dll
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\refint\Bài2.dll
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.pdb
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\Bài2.genruntimeconfig.cache
+D:\HITcoder\Code_C#\Buổi2\Bài2\obj\Debug\net8.0\ref\Bài2.dll

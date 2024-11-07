@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i <= 20; i += 2)
+            for (int i = 0; i <= 20; i += 2)
             {
                 Console.Write(i + " ");
             }
@@ -15,12 +15,12 @@
                 s += j;
                 j += 1;
             }
-            Console.WriteLine("Sum ="+ s);
+            Console.WriteLine("Sum =" + s);
             String N;
             do
             {
                 Console.Write("Nhap N >0 =");
-                 N = Console.ReadLine();  
+                N = Console.ReadLine();
             } while (int.Parse(N) <= 0);
             int count = 1;
         st:

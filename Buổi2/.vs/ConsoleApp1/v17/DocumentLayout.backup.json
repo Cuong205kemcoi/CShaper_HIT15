@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Baitap\\",
+  "WorkspaceRootPath": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C851FC7-941A-4A21-A12E-417D027152B8}|ConsoleApp1.csproj|d:\\hitcoder\\code_c#\\bu\u1ED5i2\\baitap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C851FC7-941A-4A21-A12E-417D027152B8}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +20,12 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Baitap\\Program.cs",
+              "DocumentMoniker": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Baitap\\Program.cs",
+              "ToolTip": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:53:44.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T17:53:44.936Z"
             }
           ]
         }
