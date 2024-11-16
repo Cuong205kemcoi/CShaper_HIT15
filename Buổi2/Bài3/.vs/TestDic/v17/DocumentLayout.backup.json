@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C#\\TestDic\\",
+  "WorkspaceRootPath": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\B\u00E0i3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E6ECC7-D20D-4DDE-B65C-7D4CDD9A1067}|TestDic.csproj|d:\\c#\\testdic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44E6ECC7-D20D-4DDE-B65C-7D4CDD9A1067}|TestDic.csproj|d:\\hitcoder\\code_c#\\bu\u1ED5i2\\b\u00E0i3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44E6ECC7-D20D-4DDE-B65C-7D4CDD9A1067}|TestDic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C#\\TestDic\\Program.cs",
+              "DocumentMoniker": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\B\u00E0i3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\C#\\TestDic\\Program.cs",
+              "ToolTip": "D:\\HITcoder\\Code_C#\\Bu\u1ED5i2\\B\u00E0i3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwGgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T12:41:01.445Z",
               "EditorCaption": ""

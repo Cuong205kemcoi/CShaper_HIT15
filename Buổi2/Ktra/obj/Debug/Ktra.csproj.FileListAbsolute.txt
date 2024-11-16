@@ -1,0 +1,7 @@
+D:\HITcoder\Code_C#\Buổi2\Ktra\bin\Debug\Ktra.exe.config
+D:\HITcoder\Code_C#\Buổi2\Ktra\bin\Debug\Ktra.exe
+D:\HITcoder\Code_C#\Buổi2\Ktra\bin\Debug\Ktra.pdb
+D:\HITcoder\Code_C#\Buổi2\Ktra\obj\Debug\Ktra.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\Buổi2\Ktra\obj\Debug\Ktra.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\Buổi2\Ktra\obj\Debug\Ktra.exe
+D:\HITcoder\Code_C#\Buổi2\Ktra\obj\Debug\Ktra.pdb

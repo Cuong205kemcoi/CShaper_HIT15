@@ -1,0 +1,7 @@
+D:\HITcoder\Code_C#\b4\bin\Debug\b4.exe.config
+D:\HITcoder\Code_C#\b4\bin\Debug\b4.exe
+D:\HITcoder\Code_C#\b4\bin\Debug\b4.pdb
+D:\HITcoder\Code_C#\b4\obj\Debug\b4.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\b4\obj\Debug\b4.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\b4\obj\Debug\b4.exe
+D:\HITcoder\Code_C#\b4\obj\Debug\b4.pdb

@@ -1,0 +1,7 @@
+D:\HITcoder\Code_C#\Buổi2\Buoi4\obj\Debug\Buoi4.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\Buổi2\Buoi4\obj\Debug\Buoi4.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\Buổi2\Buoi4\bin\Debug\Buoi4.exe.config
+D:\HITcoder\Code_C#\Buổi2\Buoi4\bin\Debug\Buoi4.exe
+D:\HITcoder\Code_C#\Buổi2\Buoi4\bin\Debug\Buoi4.pdb
+D:\HITcoder\Code_C#\Buổi2\Buoi4\obj\Debug\Buoi4.exe
+D:\HITcoder\Code_C#\Buổi2\Buoi4\obj\Debug\Buoi4.pdb
