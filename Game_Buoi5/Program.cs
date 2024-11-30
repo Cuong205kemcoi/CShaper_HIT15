@@ -180,8 +180,21 @@ class GameManager
     private void TurnPlayer()
     {
         Console.WriteLine("\nNhập hướng di chuyển (W/A/S/D):");
-        char move = Console.ReadKey(intercept: true).KeyChar;
-        player.Move(char.ToUpper(move), gridManager.XWide, gridManager.YHigh);
+        char move;
+        while (true)
+        {
+            move = Console.ReadKey(intercept: true).KeyChar;
+            move = char.ToUpper(move); // Chuyển thành chữ in hoa
+            if (move == 'W' || move == 'A' || move == 'S' || move == 'D')
+            {
+                break; // Chỉ chấp nhận các phím hợp lệ
+            }
+            else
+            {
+                Console.WriteLine("\nHướng không hợp lệ! Vui lòng nhập lại (W/A/S/D):");
+            }
+        }
+        player.Move(move, gridManager.XWide, gridManager.YHigh);
         player.Attack(gridManager.Tiles);
     }
 
@@ -218,6 +231,7 @@ class Program
     static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
+        Console.OutputEncoding = Encoding.UTF8; // Đảm bảo hiển thị ký tự tiếng Việt
         GameManager game = new GameManager(5, 5, 3);
         game.StartBattle();
         Console.ReadKey();
