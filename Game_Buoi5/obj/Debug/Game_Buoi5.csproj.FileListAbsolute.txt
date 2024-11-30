@@ -1,0 +1,7 @@
+D:\HITcoder\Code_C#\Game_Buoi5\bin\Debug\Game_Buoi5.exe.config
+D:\HITcoder\Code_C#\Game_Buoi5\bin\Debug\Game_Buoi5.exe
+D:\HITcoder\Code_C#\Game_Buoi5\bin\Debug\Game_Buoi5.pdb
+D:\HITcoder\Code_C#\Game_Buoi5\obj\Debug\Game_Buoi5.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\Game_Buoi5\obj\Debug\Game_Buoi5.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\Game_Buoi5\obj\Debug\Game_Buoi5.exe
+D:\HITcoder\Code_C#\Game_Buoi5\obj\Debug\Game_Buoi5.pdb

@@ -1,0 +1,2 @@
+D:\HITcoder\Code_C#\Enum\obj\Debug\Enum.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\Enum\obj\Debug\Enum.csproj.CoreCompileInputs.cache

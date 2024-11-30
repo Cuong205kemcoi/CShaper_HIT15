@@ -1,0 +1,7 @@
+D:\HITcoder\Code_C#\Buổi5\bai3\bin\Debug\bai3.exe.config
+D:\HITcoder\Code_C#\Buổi5\bai3\bin\Debug\bai3.exe
+D:\HITcoder\Code_C#\Buổi5\bai3\bin\Debug\bai3.pdb
+D:\HITcoder\Code_C#\Buổi5\bai3\obj\Debug\bai3.csproj.AssemblyReference.cache
+D:\HITcoder\Code_C#\Buổi5\bai3\obj\Debug\bai3.csproj.CoreCompileInputs.cache
+D:\HITcoder\Code_C#\Buổi5\bai3\obj\Debug\bai3.exe
+D:\HITcoder\Code_C#\Buổi5\bai3\obj\Debug\bai3.pdb
